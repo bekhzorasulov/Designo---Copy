@@ -7,7 +7,7 @@
 }
 
 .navigation img {
-  max-width: 19.6rem;
+  max-width: 20rem;
 }
 
 nav ul {
@@ -200,7 +200,7 @@ nav ul li a {
 footer {
   background-color: #1d1c1e;
   margin-top: 38rem;
-  height: 34rem;
+  height: 40rem;
   position: relative;
   z-index: 1;
 }
@@ -241,7 +241,7 @@ footer {
 .footer-main {
   width: 40rem;
   position: absolute;
-  top: 18rem;
+  top: 13rem;
   z-index: 2;
 }
 
@@ -249,7 +249,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 58rem;
+  column-gap: 55rem;
 }
 
 .footer-menu img {
@@ -274,11 +274,45 @@ footer {
   }
 }
 
-.footer-main span {
+.address-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7.2rem;
+  column-gap: 19.7rem;
+  margin-top: 7.2rem;
+  margin-bottom: 7.2rem;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.address > ul li a {
+  width: 35rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  opacity: 50%;
+  &:hover {
+    color: #e7816b;
+  }
+}
+
+.media-box {
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
+/* .footer-main span {
   max-width: 111rem;
   height: 2rem;
   border: none;
   background-color: #ffffff;
   opacity: 10%;
   margin-top: 4rem;
-}
+} */
