@@ -25,6 +25,14 @@ nav ul li a {
   }
 }
 
+.burger-menu {
+  display: none;
+}
+
+.nav-container {
+  position: relative;
+}
+
 .hero-box {
   width: 100%;
   max-width: 111.1rem;
@@ -78,6 +86,14 @@ nav ul li a {
 }
 
 .hero-img .phone {
+  position: absolute;
+  z-index: 3;
+  top: -30rem;
+  left: 10rem;
+}
+
+.tablet-phone {
+  display: none;
   position: absolute;
   z-index: 3;
   top: -30rem;
@@ -315,4 +331,105 @@ footer {
   background-color: #ffffff;
   opacity: 10%;
   margin-top: 4rem;
+} */
+
+/* @media screen and (max-width: 98rem) {
+  .hero-box {
+    display: inline-block;
+    height: 84.3rem;
+  }
+  .hero-img .phone {
+    display: none;
+  }
+  .tablet-phone {
+    display: block;
+    top: 45.5rem;
+    left: 33rem;
+  }
+  .hero-img .raund {
+    top: 12rem;
+    left: 40.5rem;
+  }
+  .hero-info {
+    flex-direction: column;
+    max-width: 57.3rem;
+    text-align: center;
+    padding: 6rem 4rem 45.7rem 5rem;
+    left: 18rem;
+  }
+  .hero-info p {
+    max-width: 44.5rem;
+  }
+}
+
+@media screen and (max-width: 76.7rem) {
+  .hero-info {
+    padding: 6rem 3rem 45.7rem 3rem;
+    left: 8rem;
+  }
+  .hero-img .raund {
+    top: 10rem;
+    left: 21.5rem;
+  }
+  .tablet-phone {
+    left: 22rem;
+  }
+}
+
+@media screen and (max-width: 62.7rem) {
+  .hero-info {
+    padding: 6rem 3rem 45.7rem 3rem;
+    left: 1rem;
+  }
+  .hero-img .raund {
+    top: 10rem;
+    left: 14.5rem;
+  }
+  .tablet-phone {
+    left: 15rem;
+  }
+}
+
+@media screen and (max-width: 56.9rem) {
+  .hero-info {
+    padding: 6rem 3rem 45.7rem 3rem;
+    left: -1rem;
+  }
+  .hero-img .raund {
+    top: 10rem;
+    left: 11.5rem;
+  }
+  .tablet-phone {
+    left: 13rem;
+  }
+}
+
+@media screen and (max-width: 52.8rem) {
+  .navigation nav {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .hero-info {
+    padding: 8rem 2.4rem 45.1rem 2.4rem;
+    left: 6rem;
+  }
+  .hero-info h1 {
+    max-width: 32.7rem;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+  .hero-info p {
+    max-width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .hero-img .raund {
+    top: 10rem;
+    left: 7.5rem;
+  }
+  .tablet-phone {
+    left: 11rem;
+  }
 } */

@@ -71,6 +71,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 64rem;
   background-color: #fdf3f0;
   margin-top: 16rem;
   border-radius: 1.5rem;
@@ -98,4 +99,32 @@ nav ul li a {
   font-weight: 400;
   line-height: 2.6rem;
   color: #333136;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-info h3 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  font-weight: 500;
+}
+
+.country-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16rem;
+}
+
+.content-image img {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
