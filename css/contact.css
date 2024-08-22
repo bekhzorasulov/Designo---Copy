@@ -19,6 +19,8 @@ nav ul {
 
 nav ul li a {
   font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
   color: #333136;
   &:hover {
     color: #e7816b;
@@ -32,6 +34,8 @@ nav ul li a {
   justify-content: space-between;
   padding: 5.5rem 9.6rem;
   border-radius: 1.5rem;
+  margin-top: 6.4rem;
+  height: 48rem;
 }
 
 .hero-contact-us h1 {
@@ -39,4 +43,129 @@ nav ul li a {
   font-size: 4.8rem;
   line-height: 1;
   font-weight: 500;
+  width: 54rem;
+}
+
+.hero-contact-us p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  width: 44.5rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+form input.box {
+  width: 38rem;
+  height: 3.8rem;
+  border: none;
+  border-bottom: 0.1rem solid #ffffff;
+  background-color: #e7816b;
+}
+
+form input.your {
+  width: 38rem;
+  height: 10rem;
+  border: none;
+  border-bottom: 0.1rem solid #ffffff;
+  background-color: #e7816b;
+}
+
+form input.btn {
+  padding: 1.7rem 4.7rem;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-info h3 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  font-weight: 500;
+}
+
+.country-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16rem;
+}
+
+.content-image img {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+footer {
+  margin-top: 16rem;
+}
+
+.menufooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7.2rem;
+}
+
+.menufooter img {
+  width: 20.2rem;
+}
+
+.boxaddress {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 7.2rem;
+  padding-bottom: 7.2rem;
+}
+
+.infoaddress {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infoaddress a {
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  opacity: 50%;
+}
+
+.menufooter nav ul li a {
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.infocontact a,
+p {
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  opacity: 50%;
+}
+
+.infocontact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxmedia {
+  display: flex;
+  column-gap: 1.6rem;
 }
