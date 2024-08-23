@@ -1,1 +1,156 @@
 @import "../css/global.css";
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6.4rem;
+}
+
+.navigation img {
+  max-width: 20rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 4.2rem;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  font-size: 1.4rem;
+  color: #333136;
+  &:hover {
+    color: #e7816b;
+  }
+}
+
+.app-design {
+  height: 25.5rem;
+  background-color: #e7816b;
+  text-align: center;
+  padding: 6.4rem 19rem 3.8rem 19rem;
+  border-radius: 1.5rem;
+  margin-top: 12.8rem;
+}
+
+.app-design h1 {
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 1;
+  color: #ffffff;
+  margin-bottom: 2.4rem;
+}
+
+.app-design p {
+  width: 40rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.articlebox {
+  background-color: #fdf3f0;
+  width: 35rem;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+
+.articlebox img {
+  width: 35rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.articlebox h3 {
+  margin-top: 3.2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 5px;
+  color: #e7816b;
+}
+
+.articlebox p {
+  margin-top: 1.6rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #333136;
+  padding: 3.2rem;
+}
+
+.articleinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16rem;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+.view-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view-graphic {
+  background-image: url(../images/home/desktop/image\ -graphic-design.png);
+  background-size: cover;
+  background-position: center;
+  width: 54.1rem;
+  height: 30.8rem;
+  padding: 10.7rem 8.9rem;
+  text-align: center;
+}
+
+.view-graphic h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.8rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.view-graphic a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+  margin-top: 2.4rem;
+}
+
+.view-web {
+  background-image: url(../images/home/desktop/web.png);
+  background-size: cover;
+  background-position: center;
+  width: 54.1rem;
+  height: 30.8rem;
+  padding: 10.7rem 13.6rem;
+  text-align: center;
+}
+
+.view-web h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.8rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.view-web a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+  margin-top: 2.4rem;
+}
+
+.view-box {
+  margin-top: 16rem;
+}
